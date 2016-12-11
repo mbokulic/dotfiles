@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"Anaconda",
+		"ColorPicker",
+		"ColorSchemeSelector",
+		"CSS Completions",
+		"CSS Extended Completions",
+		"Emmet",
+		"FuzzyFilePath",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"InsertDate",
+		"JavaScript Completions",
+		"jQuery",
+		"JSONLint",
+		"knitr",
+		"LaTeXing",
+		"MarkdownEditing",
+		"Move By Paragraph",
+		"Open URL",
+		"Origami",
+		"Package Control",
+		"Pandoc",
+		"Pretty JSON",
+		"R-Box",
+		"SendText",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-htmllint",
+		"SublimeLinter-html-tidy",
+		"Text Pastry",
+		"View In Browser"
+	]
+}

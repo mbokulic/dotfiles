@@ -1,0 +1,18 @@
+{
+	"auto_find_in_selection": true,
+	"color_scheme": "Packages/User/SublimeLinter/Espresso Libre (SL).tmTheme",
+	"font_face": "DejaVu Sans Mono",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}

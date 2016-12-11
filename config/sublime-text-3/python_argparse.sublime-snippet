@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[import argparse
+
+parser = argparse.ArgumentParser()
+# a required argument requiring input
+parser.add_argument('--path', '-p', dest='file_path', required=True)
+# an optional flag that is set to false if not present
+parser.add_argument('--verbose', '-v',
+                    action='store_true',
+                    default=False)
+
+args = parser.parse_args()]]></content>
+    <tabTrigger>argparse</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -10,5 +10,10 @@
     ~/.config/i3:
         path: config/i3/
         create: true
+    ~/.config/sublime-text-3/Packages/User:
+        path: config/sublime-text-3/
+        create: true
+
+
 
 
