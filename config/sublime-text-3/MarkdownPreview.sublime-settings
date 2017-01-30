@@ -1,0 +1,6 @@
+{
+    "build-action": "browser",
+    "enable_mathjax": true,
+    "enable_uml": true,
+    "enable_highlight": true
+}

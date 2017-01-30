@@ -136,6 +136,20 @@
 			{
 				"args":
 				{
+					"text": ":",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": ":"
+			},
+			"key": "853ae90f0351324bd73ea615e6487517",
+			"label": ":"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "1 1 1"
 				},
 				"command": "text_pastry_step",
@@ -149,24 +163,22 @@
 			{
 				"args":
 				{
-					"text": ":",
-					"threshold": 3
+					"text": "2 1 1"
 				},
-				"command": "text_pastry_insert_text",
-				"text": ":"
+				"command": "text_pastry_step",
+				"text": "2 1 1"
 			},
-			"key": "853ae90f0351324bd73ea615e6487517",
-			"label": ":"
+			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
+			"label": "2 1 1"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": ":",
-			"threshold": 3
+			"text": "2 1 1"
 		},
-		"command": "text_pastry_insert_text",
-		"text": ":"
+		"command": "text_pastry_step",
+		"text": "2 1 1"
 	}
 }
