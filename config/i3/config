@@ -120,6 +120,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # assign programs to workspaces
+# find classes with xprop | grep WM_CLASS
 assign [class="Sublime_text"] $ws2
 assign [class="Google-chrome"] $ws3
 
@@ -166,7 +167,24 @@ bar {
         status_command i3status -c ~/.config/i3/i3status.conf
 }
 
-exec --no-startup-id google-chrome
-exec --no-startup-id terminator
-exec --no-startup-id subl
-exec --no-startup-id dropbox start
+# open programs on startup
+exec google-chrome
+exec terminator
+exec subl
+exec --no-startup-id dropbox start  # --no-startup-id with CLI programs (?)
+exec_always --no-startup-id i3-msg 'workspace "2: txt|"; exec terminator'
+
+# focus this workspace on startup
+exec_always --no-startup-id i3-msg 'workspace "2: txt|"'
+
+# move workspaces
+workspace "2: txt|" output HDMI-1-1
+workspace "3: www" output HDMI-1-1
+
+# this is how to do it inside a script (in case you need it)
+# i3-msg '[workspace="3: www"] move workspace to output HDMI-1-1'
+
+# no switching focus when moving mouse
+focus_follows_mouse no
+
+
